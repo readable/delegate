@@ -1,6 +1,6 @@
 {
   "name": "@readable/delegate",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple and readable vanilla js event delegation",
   "keywords": [
     "delegate",
