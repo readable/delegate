@@ -17,5 +17,8 @@
     "type": "git",
     "url": "https://github.com/readable/readable.git"
   },
-  "main": "delegate.js"
+  "main": "delegate.js",
+  "dependencies": {
+    "@readable/closest": "0.0.2"
+  }
 }
