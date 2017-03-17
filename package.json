@@ -1,21 +1,43 @@
 {
   "name": "@readable/delegate",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "Simple and readable vanilla js event delegation",
   "keywords": [
     "delegate",
-    "vanilla",
-    "minimalist",
+    "fast",
     "light",
     "lightweight",
+    "minimalist",
     "simple",
-    "fast"
+    "vanilla"
   ],
   "author": "Oleg",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/readable/readable.git"
+    "url": "https://github.com/readable/delegate.git"
   },
-  "main": "delegate.js"
+  "main": "delegate.js",
+  "scripts": {
+    "lint": "standard delegate.js README.md",
+    "preversion": "npm run lint"
+  },
+  "dependencies": {
+    "@readable/closest": "0.0.2"
+  },
+  "devDependencies": {
+    "eslint-plugin-markdown": "^1.0.0-beta.6",
+    "standard": "^11.0.1"
+  },
+  "standard": {
+    "envs": [
+      "browser"
+    ],
+    "globals": [
+      "Rd"
+    ],
+    "plugins": [
+      "markdown"
+    ]
+  }
 }
