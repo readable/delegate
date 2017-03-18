@@ -20,5 +20,8 @@
   "main": "delegate.js",
   "dependencies": {
     "@readable/closest": "0.0.2"
+  },
+  "devDependencies": {
+    "standard": "^9.0.2"
   }
 }
