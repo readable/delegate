@@ -18,10 +18,17 @@
     "url": "https://github.com/readable/delegate.git"
   },
   "main": "delegate.js",
+  "scripts": {
+    "lint:js": "standard delegate.js",
+    "lint:md": "standard --global Rd --plugin markdown README.md",
+    "lint": "npm run lint:js & npm run lint:md & wait",
+    "preversion": "npm run lint"
+  },
   "dependencies": {
     "@readable/closest": "0.0.2"
   },
   "devDependencies": {
+    "eslint-plugin-markdown": "^1.0.0-beta.4",
     "standard": "^9.0.2"
   }
 }
