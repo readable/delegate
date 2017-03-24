@@ -4,12 +4,12 @@
   "description": "Simple and readable vanilla js event delegation",
   "keywords": [
     "delegate",
-    "vanilla",
-    "minimalist",
+    "fast",
     "light",
     "lightweight",
+    "minimalist",
     "simple",
-    "fast"
+    "vanilla",
   ],
   "author": "Oleg",
   "license": "MIT",
